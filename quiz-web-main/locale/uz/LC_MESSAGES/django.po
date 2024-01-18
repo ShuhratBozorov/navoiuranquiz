@@ -91,6 +91,7 @@ msgstr ""
 msgid "TX xodimlar ro'yxatdan o'tish"
 msgstr ""
 
+#: .\templates\teacher\teachersignup.html:27
 msgid "Tabel nomer"
 msgstr ""
 

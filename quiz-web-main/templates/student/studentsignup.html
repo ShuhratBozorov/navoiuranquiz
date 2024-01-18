@@ -25,22 +25,22 @@
     <div class="form-row">
       <div class="form-group col-md-6">
         <label for="username">Tabel nomer</label>
-        {% render_field userForm.username|attr:'required:true'  class="form-control" placeholder="12345" %}
+        {% render_field userForm.username|attr:'required:true'  class="form-control" %}
       </div>
       <div class="form-group col-md-6">
         <label for="inputPassword4">Password</label>
-        {% render_field userForm.password|attr:'required:true'  class="form-control" placeholder="password" %}
+        {% render_field userForm.password|attr:'required:true'  class="form-control"  %}
       </div>
     </div>
 
     <div class="form-row">
         <div class="form-group col-md-6">
           <label for="first_name">Xodim ismi</label>
-          {% render_field userForm.first_name|attr:'required:true'  class="form-control" placeholder="First Name" %}
+          {% render_field userForm.first_name|attr:'required:true'  class="form-control"  %}
         </div>
         <div class="form-group col-md-6">
           <label for="last_name">Xodim familiyasi</label>
-          {% render_field userForm.last_name|attr:'required:true'  class="form-control" placeholder="Last Name" %}
+          {% render_field userForm.last_name|attr:'required:true'  class="form-control" %}
         </div>
       </div>
 

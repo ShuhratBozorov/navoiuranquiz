@@ -93,6 +93,7 @@ msgstr "Вход"
 msgid "TX xodimlar ro'yxatdan o'tish"
 msgstr "TБ сотрудники Регистрация"
 
+#: .\templates\teacher\teachersignup.html:27
 msgid "Tabel nomer"
 msgstr "Табличный номер"
 

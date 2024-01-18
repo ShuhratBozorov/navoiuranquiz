@@ -91,6 +91,7 @@ msgstr "Кириш"
 msgid "TX xodimlar ro'yxatdan o'tish"
 msgstr "ТХ ходимлар рўйхатдан ўтиш"
 
+#: .\templates\teacher\teachersignup.html:27
 msgid "Tabel nomer"
 msgstr "Табел номер"
 
