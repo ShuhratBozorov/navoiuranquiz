@@ -1,0 +1,47 @@
+{% load i18n %}
+<!DOCTYPE html>
+{% load static %}
+<html lang="en" dir="ltr">
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+  <style media="screen">
+    .jumbotron {
+      margin-top: 0px;
+      margin-bottom: 0px;
+    }
+
+    .jumbotron h1 {
+      text-align: center;
+    }
+    p {
+      font-size: larger;
+    }
+    a {
+      font-size: larger;
+    }
+  </style>
+
+</head>
+
+<body class="d-flex flex-column min-vh-100">
+
+  {% include "quiz/navbar.html" %}
+  <br><br><br><br><br><br>
+  <div class="card" style="margin-bottom:0px;">
+    <h1 class="display-4 text-center">{% trans "Texnika xavfsizlik xodimlari" %}</h1>
+    <p class="lead">{% trans "Online test web saytiga xush kelibsiz!" %} </p>
+    <hr class="my-4">
+    <p>{%trans "Saytdan ro'yxatdan o'tganingizdan so'ng saytga kirish huquqiga egasiz!" %}</p>
+    <p class="lead">
+      <a class="btn btn-primary btn-success btn-lg" href="teachersignup" role="button">{% trans "Akkaunt yaratish"%}</a>
+      <a class="btn btn-primary btn-success btn-lg" href="teacherlogin" role="button">{%trans "Kirish" %}</a>
+    </p>
+    <br><br><br><br>
+  </div>
+  {% include "quiz/footer.html" %}
+</body>
+
+</html>

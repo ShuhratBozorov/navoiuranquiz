@@ -1,0 +1,34 @@
+{% load i18n %}
+<!DOCTYPE html>
+{% load static %}
+<html dir="ltr">
+
+<style>
+  .jumbotron{
+    margin-bottom: 0px;
+  }
+</style>
+<body class="d-flex flex-column min-vh-100">
+  {% include "quiz/navbar.html" %}
+<br><br><br><br><br><br><br><br><br><br><br>
+<section id="section-jumbotron" class=" d-flex justify-content-center align-items-center">
+  <div class="container text-center">
+    <p class="display-4 d-none d-sm-block">{% trans "Texnika xavfsizligidan test" %}</p>
+
+
+    <p class="lead">{% trans "Ro'yxatdan o'ting va saytga kiring" %}  </p>
+
+    <a href="{% url 'studentlogin' %}" class="btn btn-lg btn-success" style="padding-right: 35px;"><i class="fa fa-user-plus" aria-hidden="true"></i> {% trans "Boshlash!" %}</a>
+    
+    <br><br><br>
+
+      {% load i18n %}
+
+  </div>
+</section>
+  {% include "quiz/footer.html" %}
+
+
+</body>
+
+</html>

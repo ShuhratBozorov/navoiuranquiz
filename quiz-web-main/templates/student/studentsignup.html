@@ -1,0 +1,75 @@
+{% load i18n %}
+<!DOCTYPE html>
+{% load widget_tweaks %}
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <style>
+
+        form{
+           margin: 50px; 
+          
+        }
+
+    </style>
+  </head>
+  <body class="d-flex flex-column min-vh-100">
+    {% include "quiz/navbar.html" %}
+ 
+
+
+<br><br><br><br><br>
+<h3 style="text-align: center;color: red;">Xodimlar ro'yxatdan o'tish</h3>
+<form method="POST" autocomplete="off" enctype="multipart/form-data">
+    {% csrf_token %}
+    <div class="form-row">
+      <div class="form-group col-md-6">
+        <label for="username">Tabel nomer</label>
+        {% render_field userForm.username|attr:'required:true'  class="form-control" placeholder="12345" %}
+      </div>
+      <div class="form-group col-md-6">
+        <label for="inputPassword4">Password</label>
+        {% render_field userForm.password|attr:'required:true'  class="form-control" placeholder="password" %}
+      </div>
+    </div>
+
+    <div class="form-row">
+        <div class="form-group col-md-6">
+          <label for="first_name">Xodim ismi</label>
+          {% render_field userForm.first_name|attr:'required:true'  class="form-control" placeholder="First Name" %}
+        </div>
+        <div class="form-group col-md-6">
+          <label for="last_name">Xodim familiyasi</label>
+          {% render_field userForm.last_name|attr:'required:true'  class="form-control" placeholder="Last Name" %}
+        </div>
+      </div>
+
+      <div class="form-row">
+        <div class="form-group col-md-6">
+          <label for="mobile">Telefon nomeri</label>
+          {% render_field studentForm.mobile|attr:'required:true'  class="form-control" placeholder="Telefon nomeri" %}
+        </div>
+        <div class="form-group col-md-6">
+          <label for="address">Ish joyi</label>
+          {% render_field studentForm.address|attr:'required:true'  class="form-control" placeholder="Ish joyi" %}
+        </div>
+        <div class="form-group col-md-6">
+          <label for="soha">Xodim Sohasi</label>
+          {% render_field studentForm.selected_subject|attr:'required:true'  class="form-control" placeholder="Dasturchilar sohasi" %}
+        </div>
+        <div class="form-group col-md-6">
+          <label for="region"> {% trans "Bo'linmani tanlang" %} </label>
+          {% render_field studentForm.regions|attr:'required:true'  class="form-control" placeholder="Zafarobod KB" %}
+        </div>
+      </div>
+
+
+
+    <button type="submit" class="btn btn-primary">Ro'yxatdan o'tish</button>
+  </form>
+
+
+<br><br>
+{% include "quiz/footer.html" %}
+  </body>
+</html>

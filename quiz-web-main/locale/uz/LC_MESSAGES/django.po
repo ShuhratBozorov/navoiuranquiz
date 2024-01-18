@@ -1,0 +1,113 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the PACKAGE package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2024-01-18 10:22+0500\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"Language: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+
+#: .\onlinequiz\settings.py:116
+msgid "Ўзбек"
+msgstr ""
+
+#: .\onlinequiz\settings.py:117
+msgid "Русский"
+msgstr ""
+
+#: .\onlinequiz\settings.py:118
+msgid "Uzbek"
+msgstr ""
+
+#: .\templates\quiz\index.html:16
+msgid "Texnika xavfsizligidan test"
+msgstr ""
+
+#: .\templates\quiz\index.html:19
+msgid "Ro'yxatdan o'ting va saytga kiring"
+msgstr ""
+
+#: .\templates\quiz\index.html:21
+msgid "Boshlash!"
+msgstr ""
+
+#: .\templates\quiz\index.html:27
+msgid "Tilni tanlang:"
+msgstr ""
+
+#: .\templates\quiz\index.html:39
+msgid "Tanlash"
+msgstr ""
+
+#: .\templates\student\studentsignup.html:61
+msgid "Bo'linmani tanlang"
+msgstr ""
+
+msgid "Mehnat muhofazasi texnika xavfsizligi xodimlari"
+msgstr ""
+
+#: .\templates\quiz\navbar.html:54
+msgid "Ishchi xodimlar"
+msgstr ""
+
+#: .\templates\quiz\navbar.html:58
+msgid "Aloqa uchun"
+msgstr ""
+
+#: .\templates\quiz\navbar.html:59
+msgid "Admin"
+msgstr ""
+
+#: .\templates\quiz\footer.html:55
+msgid "Navoiyuran"
+msgstr ""
+
+msgid "Texnika xavfsizlik xodimlari"
+msgstr ""
+
+msgid "Online test web saytiga xush kelibsiz!"
+msgstr ""
+
+msgid "Saytdan ro'yxatdan o'tganingizdan so'ng saytga kirish huquqiga egasiz!"
+msgstr ""
+
+msgid "Akkaunt yaratish"
+msgstr ""
+
+msgid "Kirish"
+msgstr ""
+
+msgid "TX xodimlar ro'yxatdan o'tish"
+msgstr ""
+
+msgid "Tabel nomer"
+msgstr ""
+
+msgid "Password"
+msgstr ""
+
+msgid "Xodim ismi"
+msgstr ""
+
+msgid "Xodim familiyasi"
+msgstr ""
+
+msgid "Telefon raqami"
+msgstr ""
+
+msgid "Ish joyi"
+msgstr ""
+
+msgid "Ro'yxatdan o'tish"
+msgstr ""

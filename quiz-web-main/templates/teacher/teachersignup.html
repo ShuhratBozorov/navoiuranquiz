@@ -1,0 +1,74 @@
+{% load i18n %}
+<!DOCTYPE html>
+{% load widget_tweaks %}
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <style>
+
+        form{
+           margin: 50px; 
+          
+        }
+
+    </style>
+  </head>
+  <body class="d-flex flex-column min-vh-100">
+    {% include "quiz/navbar.html" %}
+ 
+
+
+<br><br><br><br><br>
+<h3 style="text-align: center;color: red;">{%trans "TX xodimlar ro'yxatdan o'tish" %} </h3>
+<form method="POST" autocomplete="off" enctype="multipart/form-data">
+    {% csrf_token %}
+    <div class="form-row">
+      <div class="form-group col-md-6">
+        <label for="username">{%trans "Tabel nomer" %}</label>
+        {% render_field userForm.username|attr:'required:true'  class="form-control" placeholder="12345" %}
+      </div>
+      <div class="form-group col-md-6">
+        <label for="inputPassword4">{%trans "Password" %}</label>
+        {% render_field userForm.password|attr:'required:true'  class="form-control" placeholder="password" %}
+      </div>
+    </div>
+
+    <div class="form-row">
+      <div class="form-group col-md-6">
+        <label for="first_name">{%trans "Xodim ismi" %}</label>
+        {% render_field userForm.first_name|attr:'required:true'  class="form-control" placeholder="First Name" %}
+      </div>
+      <div class="form-group col-md-6">
+        <label for="last_name">{%trans "Xodim familiyasi" %}</label>
+        {% render_field userForm.last_name|attr:'required:true'  class="form-control" placeholder="Last Name" %}
+      </div>
+    </div>
+
+      <div class="form-row">
+        <div class="form-group col-md-6">
+          <label for="mobile">{%trans "Telefon raqami" %}</label>
+          {% render_field teacherForm.mobile|attr:'required:true'  class="form-control" placeholder="telefon raqami" %}
+        </div>
+        <div class="form-group col-md-6">
+          <label for="address">{%trans "Ish joyi" %}</label>
+          {% render_field teacherForm.address|attr:'required:true'  class="form-control" placeholder="Ish joyi" %}
+        </div>
+      </div>
+
+      <!-- <div class="form-row">
+        <div class="form-group col-md-12">
+          <label for="profile_pic">Profil rasmi</label>
+          {% render_field teacherForm.profile_pic|attr:'required:true' class="form-control" placeholder="" %}
+        </div>
+        
+      </div> -->
+
+
+    <button type="submit" class="btn btn-primary">{% trans "Ro'yxatdan o'tish" %}</button>
+  </form>
+
+
+<br><br>
+{% include "quiz/footer.html" %}
+  </body>
+</html>

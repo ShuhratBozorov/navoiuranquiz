@@ -1,0 +1,87 @@
+{% load i18n %}
+<!DOCTYPE html>
+{% load static %}
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
+
+    <style type="text/css">
+        .bs-example {
+            margin: 0px;
+
+        }
+
+        .bg-dark {
+            background-color: #212529 !important;
+        }
+
+        .navbar-brand {
+            font-size: 20px;
+            font-family: sans-serif;
+
+        }
+
+        .nav-item {
+            color: black;
+            font-size: larger;
+        }
+    </style>
+</head>
+
+<body>
+
+<div class="bs-example">
+    <nav class="navbar navbar-expand-md  navbar-light fixed-top" style="background-color: #4ec752;">
+        <!-- <a style="color: #000000;text-decoration: none;padding-left: 20px;padding-right: 30px; " href="/"><font face = "RobotoCondensed-Bold" size =" 7">Navoiyuran    </font><br /></a> -->
+        <a href="/"><img src="{% static 'image/uran.png' %}" style="width:300px;height: 75px;" alt="uran"></a>
+        <button type="button" class="navbar-toggler" data-toggle="collapse" data-target="#navbarCollapse">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+
+        <div class="collapse navbar-collapse justify-content-between" id="navbarCollapse">
+            <div class="navbar-nav">
+                <!-- <a style="
+                padding-left: 30px;
+            " href="/" class="nav-item nav-link active">Bosh sahifa</a> -->
+
+                <a href="/teacher/teacherclick" class="nav-item nav-link">{% trans "Mehnat muhofazasi texnika xavfsizligi xodimlari" %}</a>
+                <a href="/student/studentclick" class="nav-item nav-link">{% trans "Ishchi xodimlar" %}</a>
+            </div>
+            <form method="post" action="{% url 'set_language' %}" style="margin: 0;">
+                {% csrf_token %}
+    
+                <label for="language">{% trans "Tilni tanlang:" %}</label>
+                <select name="language" id="language">
+                    {% get_current_language as current_language %}
+                    {% get_available_languages as available_languages %}
+    
+                    {% for lang_code, lang_name in available_languages %}
+                        <option value="{{ lang_code }}" {% if lang_code == current_language %}selected{% endif %}>
+                            {{ lang_name }}
+                        </option>
+                    {% endfor %}
+                </select>
+    
+                <input type="submit" value="{% trans 'Tanlash' %}">
+            </form>
+            <div>
+                <a href="/contactus" class="nav-item nav-link">{% trans "Aloqa uchun" %}</a>
+                <a href="/adminclick" class="nav-item nav-link">{% trans "Admin" %}</a>
+            </div>
+        </div>
+
+
+       
+    </nav>
+</div>
+
+
+</body>
+
+</html>
