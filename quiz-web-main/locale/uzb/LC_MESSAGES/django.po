@@ -90,7 +90,7 @@ msgid "Admin"
 msgstr "Админ"
 
 #: .\templates\student\studentclick.html:34
-msgid "Xodimlar "
+msgid "Xodimlar"
 msgstr "Ходимлар"
 
 #: .\templates\student\studentclick.html:35

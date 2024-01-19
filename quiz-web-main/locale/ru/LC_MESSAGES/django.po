@@ -93,8 +93,8 @@ msgid "Admin"
 msgstr "Админ"
 
 #: .\templates\student\studentclick.html:34
-msgid "Xodimlar "
-msgstr "Имя сотрудника"
+msgid "Xodimlar"
+msgstr "Сотрудника"
 
 #: .\templates\student\studentclick.html:35
 msgid "Online test web saytiga xush kelibsiz! "
