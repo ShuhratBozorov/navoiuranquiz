@@ -19,42 +19,42 @@
 
 
 <br><br><br><br><br>
-<h3 style="text-align: center;color: red;">Xodimlar ro'yxatdan o'tish</h3>
+<h3 style="text-align: center;color: red;">{%trans "Xodimlar ro'yxatdan o'tish" %}</h3>
 <form method="POST" autocomplete="off" enctype="multipart/form-data">
     {% csrf_token %}
     <div class="form-row">
       <div class="form-group col-md-6">
-        <label for="username">Tabel nomer</label>
+        <label for="username">{%trans "Tabel nomer" %}</label>
         {% render_field userForm.username|attr:'required:true'  class="form-control" %}
       </div>
       <div class="form-group col-md-6">
-        <label for="inputPassword4">Password</label>
+        <label for="inputPassword4">{%trans "Password" %}</label>
         {% render_field userForm.password|attr:'required:true'  class="form-control"  %}
       </div>
     </div>
 
     <div class="form-row">
         <div class="form-group col-md-6">
-          <label for="first_name">Xodim ismi</label>
+          <label for="first_name">{%trans "Xodim ismi" %}</label>
           {% render_field userForm.first_name|attr:'required:true'  class="form-control"  %}
         </div>
         <div class="form-group col-md-6">
-          <label for="last_name">Xodim familiyasi</label>
+          <label for="last_name">{%trans "Xodim familiyasi" %}</label>
           {% render_field userForm.last_name|attr:'required:true'  class="form-control" %}
         </div>
       </div>
 
       <div class="form-row">
         <div class="form-group col-md-6">
-          <label for="mobile">Telefon nomeri</label>
-          {% render_field studentForm.mobile|attr:'required:true'  class="form-control" placeholder="Telefon nomeri" %}
+          <label for="mobile">{%trans "Telefon nomeri" %}</label>
+          {% render_field studentForm.mobile|attr:'required:true'  class="form-control"  %}
         </div>
         <div class="form-group col-md-6">
-          <label for="address">Ish joyi</label>
-          {% render_field studentForm.address|attr:'required:true'  class="form-control" placeholder="Ish joyi" %}
+          <label for="address">{%trans "Ish joyi" %}</label>
+          {% render_field studentForm.address|attr:'required:true'  class="form-control" %}
         </div>
         <div class="form-group col-md-6">
-          <label for="soha">Xodim Sohasi</label>
+          <label for="soha">{%trans "Xodim Sohasi" %}</label>
           {% render_field studentForm.selected_subject|attr:'required:true'  class="form-control" placeholder="Dasturchilar sohasi" %}
         </div>
         <div class="form-group col-md-6">
@@ -65,7 +65,7 @@
 
 
 
-    <button type="submit" class="btn btn-primary">Ro'yxatdan o'tish</button>
+    <button type="submit" class="btn btn-primary">{%trans "Ro'yxatdan o'tish" %}</button>
   </form>
 
 

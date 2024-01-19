@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2024-01-18 10:22+0500\n"
+"POT-Creation-Date: 2024-01-19 14:08+0500\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -20,6 +20,10 @@ msgstr ""
 "%10<=4 && (n%100<12 || n%100>14) ? 1 : n%10==0 || (n%10>=5 && n%10<=9) || (n"
 "%100>=11 && n%100<=14)? 2 : 3);\n"
 
+#: .\onlinequiz\settings.py:115
+msgid "Uzbek"
+msgstr ""
+
 #: .\onlinequiz\settings.py:116
 msgid "Ўзбек"
 msgstr ""
@@ -28,32 +32,41 @@ msgstr ""
 msgid "Русский"
 msgstr ""
 
-#: .\onlinequiz\settings.py:118
-msgid "Uzbek"
+#: .\templates\quiz\aboutus.html:35
+msgid "Biz xodimlarga savollar berish uchun platformani taqdim etamiz"
 msgstr ""
+
+#: .\templates\quiz\aboutus.html:35
+msgid ""
+"Texnik Xavfsizlik xodimi tizimga Xavfsizlik texnikasi bo'yicha savollar "
+"qo'shishi mumkin."
+msgstr ""
+
+#: .\templates\quiz\aboutus.html:37
+msgid "Veb-saytimizni o'rganing. !!!"
+msgstr ""
+
+#: .\templates\quiz\aboutus.html:39
+#, fuzzy
+#| msgid "Boshlash!"
+msgid "Bosh Sahifa"
+msgstr "Начать!"
+
+#: .\templates\quiz\footer.html:56
+msgid "Navoiyuran"
+msgstr "Навоийуран"
 
 #: .\templates\quiz\index.html:16
 msgid "Texnika xavfsizligidan test"
 msgstr "Тестирование техники безопасности"
 
+#: .\templates\quiz\index.html:19
+msgid "Ro'yxatdan o'ting va saytga kiring"
+msgstr "Зарегистрируйтесь и войдите на сайт"
+
 #: .\templates\quiz\index.html:21
 msgid "Boshlash!"
 msgstr "Начать!"
-
-#: .\templates\quiz\index.html:27
-msgid "Tilni tanlang:"
-msgstr "Выберите язык:"
-
-#: .\templates\quiz\index.html:39
-msgid "Tanlash"
-msgstr "Выбор"
-
-#: .\templates\student\studentsignup.html:61
-msgid "Bo'linmani tanlang"
-msgstr ""
-
-msgid "Ro'yxatdan o'ting va saytga kiring"
-msgstr "Зарегистрируйтесь и войдите на сайт"
 
 #: .\templates\quiz\navbar.html:53
 msgid "Mehnat muhofazasi texnika xavfsizligi xodimlari"
@@ -63,54 +76,128 @@ msgstr "Охранники техники безопасности труда"
 msgid "Ishchi xodimlar"
 msgstr "Рабочий персонал"
 
-#: .\templates\quiz\navbar.html:58
+#: .\templates\quiz\navbar.html:59
+msgid "Tilni tanlang:"
+msgstr "Выберите язык:"
+
+#: .\templates\quiz\navbar.html:71
+msgid "Tanlash"
+msgstr "Выбор"
+
+#: .\templates\quiz\navbar.html:74
 msgid "Aloqa uchun"
 msgstr "Для связи"
 
-#: .\templates\quiz\navbar.html:59
+#: .\templates\quiz\navbar.html:75
 msgid "Admin"
 msgstr "Админ"
 
-#: .\templates\quiz\footer.html:55
-msgid "Navoiyuran"
-msgstr "Навоийуран"
+#: .\templates\student\studentclick.html:34
+msgid "Xodimlar "
+msgstr "Имя сотрудника"
 
-msgid "Texnika xavfsizlik xodimlari"
-msgstr "Сотрудники технической безопасности"
-
-msgid "Online test web saytiga xush kelibsiz!"
+#: .\templates\student\studentclick.html:35
+msgid "Online test web saytiga xush kelibsiz! "
 msgstr "Добро пожаловать на сайт онлайн-тестирования!"
 
-msgid "Saytdan ro'yxatdan o'tganingizdan so'ng saytga kirish huquqiga egasiz!"
+#: .\templates\student\studentclick.html:37
+msgid "Saytdan ro'yxatdan o'tganingizdan so'ng saytga kirish huquqiga egasiz! "
 msgstr "После регистрации с сайта вы получаете доступ к сайту!"
 
-msgid "Akkaunt yaratish"
+#: .\templates\student\studentclick.html:39
+msgid "Akkaunt yaratish "
 msgstr "Создать аккаунт"
 
-msgid "Kirish"
+#: .\templates\student\studentclick.html:40
+msgid "Kirish "
 msgstr "Вход"
 
-msgid "TX xodimlar ro'yxatdan o'tish"
-msgstr "TБ сотрудники Регистрация"
+#: .\templates\student\studentlogin.html:88
+msgid "Xodimlar kirish"
+msgstr "Вход сотрудников"
 
+#: .\templates\student\studentlogin.html:89
+msgid "Iltimos, login va parolingizni kiriting!"
+msgstr "Пожалуйста, введите свой логин и пароль!"
+
+#: .\templates\student\studentsignup.html:22
+msgid "Xodimlar ro'yxatdan o'tish"
+msgstr "Сотрудники Регистрация"
+
+#: .\templates\student\studentsignup.html:27
 #: .\templates\teacher\teachersignup.html:27
 msgid "Tabel nomer"
-msgstr "Табличный номер"
+msgstr "Табелный номер"
 
+#: .\templates\student\studentsignup.html:31
+#: .\templates\teacher\teachersignup.html:31
 msgid "Password"
 msgstr "Пароль"
 
+#: .\templates\student\studentsignup.html:38
+#: .\templates\teacher\teachersignup.html:38
 msgid "Xodim ismi"
 msgstr "Имя сотрудника"
 
+#: .\templates\student\studentsignup.html:42
+#: .\templates\teacher\teachersignup.html:42
 msgid "Xodim familiyasi"
 msgstr "Фамилия сотрудника"
 
-msgid "Telefon raqami"
+#: .\templates\student\studentsignup.html:49
+msgid "Telefon nomeri"
 msgstr "Номер телефона"
 
+#: .\templates\student\studentsignup.html:53
+#: .\templates\teacher\teachersignup.html:53
 msgid "Ish joyi"
 msgstr "Рабочее место"
 
+#: .\templates\student\studentsignup.html:57
+msgid "Xodim Sohasi"
+msgstr "Деятельности Сотрудников"
+
+#: .\templates\student\studentsignup.html:61
+msgid "Bo'linmani tanlang"
+msgstr "Выберите раздел"
+
+#: .\templates\student\studentsignup.html:68
+#: .\templates\teacher\teachersignup.html:67
 msgid "Ro'yxatdan o'tish"
 msgstr "Регистрация"
+
+#: .\templates\teacher\teacherclick.html:34
+msgid "Texnika xavfsizlik xodimlari"
+msgstr "Сотрудники технической безопасности"
+
+#: .\templates\teacher\teacherclick.html:35
+msgid "Online test web saytiga xush kelibsiz!"
+msgstr "Добро пожаловать на сайт онлайн-тестирования!"
+
+#: .\templates\teacher\teacherclick.html:37
+msgid "Saytdan ro'yxatdan o'tganingizdan so'ng saytga kirish huquqiga egasiz!"
+msgstr "После регистрации с сайта вы получаете доступ к сайту!"
+
+#: .\templates\teacher\teacherclick.html:39
+msgid "Akkaunt yaratish"
+msgstr "Создать аккаунт"
+
+#: .\templates\teacher\teacherclick.html:40
+msgid "Kirish"
+msgstr "Вход"
+
+#: .\templates\teacher\teacherlogin.html:87
+msgid "TX xodimlar kirish "
+msgstr "ТБ вход сотрудников "
+
+#: .\templates\teacher\teacherlogin.html:88
+msgid "Iltimos, login va parolingizni kiriting! "
+msgstr "Пожалуйста, введите свой логин и пароль! "
+
+#: .\templates\teacher\teachersignup.html:22
+msgid "TX xodimlar ro'yxatdan o'tish"
+msgstr "TБ сотрудники Регистрация"
+
+#: .\templates\teacher\teachersignup.html:49
+msgid "Telefon raqami"
+msgstr "Номер телефона"

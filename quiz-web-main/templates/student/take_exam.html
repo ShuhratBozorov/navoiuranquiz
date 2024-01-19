@@ -14,14 +14,14 @@
 <div class="container my-4">
     <div class="jumbotron">
 
-	      <h3 class="text-info text-center">Testni boshlashdan oldin bu yerdagi qoidalar bilan tanishing !</h3>
+	      <h3 class="text-info text-center">{%trans "Testni boshlashdan oldin bu yerdagi qoidalar bilan tanishing !" %}</h3>
 
         <div class="row">
 
             <div class="card border-info mx-4 my-4">
                 <div class="card-body text-info">
 
-                    <h4 class="card-title">Test tafsilotlari :</h4>
+                    <h4 class="card-title">{%trans "Test tafsilotlari :" %}</h4>
                     <p class="card-text">
                         </p><ul style="list-style:decimal;">
                             <li>Soha nomi : {{course.course_name}}</li>
@@ -33,21 +33,21 @@
 
 
 
-                    <h4 class="card-title">Qoidalar :</h4>
+                    <h4 class="card-title">{%trans "Qoidalar :" %}</h4>
                     <p class="card-text">
                         </p><ul style="list-style:decimal;">
-                            <li>Barcha savollar ko'p tanlovli savollardir..</li>
-                            <li><span class="text-danger">Faqat bitta tanlov to'g'ri.</span></li>
-                            <li>Har bir savol turli belgilarga ega </li>
-                            <li>Iloji boricha tezroq javob berishga harakat qiling..</li>
+                            <li>{%trans "Barcha savollar ko'p tanlovli savollardir." %}</li>
+                            <li><span class="text-danger">{%trans "Faqat bitta tanlov to'g'ri." %}</span></li>
+                            <li>{%trans "Har bir savol turli belgilarga ega" %}</li>
+                            <li>{%trans "Iloji boricha tezroq javob berishga harakat qiling." %}</li>
                             <!-- <li>If you press refresh or go back to the previous page, there will be a new question for you and the question you were on will be counted as attempted.</li> -->
-                            <li>Savollar har bir foydalanuvchi uchun tasodifiy ko'rsatiladi.</li>
-                            <li>Javobni yuborganingizda darhol baholaringiz aytiladi.</li>
+                            <li>{%trans "Savollar har bir foydalanuvchi uchun tasodifiy ko'rsatiladi." %}</li>
+                            <li>{%trans "Javobni yuborganingizda darhol baholaringiz aytiladi." %}</li>
                         </ul>
                     <p></p>
-                    <a href="{% url 'start-exam' course.id  %}" class="btn btn-info">Testni boshlash</a>
+                    <a href="{% url 'start-exam' course.id  %}" class="btn btn-info">{%trans "Testni boshlash" %}</a>
                 </div>  
-                <div class="card-footer">Omad Tilaymiz! </div>  
+                <div class="card-footer">{%trans "Omad Tilaymiz!" %}</div>  
             </div>  
         </div>  
 

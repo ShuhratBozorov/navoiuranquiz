@@ -8,11 +8,12 @@ class TeacherUserForm(forms.ModelForm):
         model=User
         fields=['username', 'first_name','last_name','password']
         widgets = {
-            'username': forms.TextInput(attrs={'placeholder': _('1234567')}),
-            'first_name': forms.TextInput(attrs={'placeholder': _('Xodim ismi')}),
-            'last_name': forms.TextInput(attrs={'placeholder': _('Xodim familiyasi')}),
-            'password': forms.PasswordInput(attrs={'placeholder': _('Parol')})
+          
+            'password': forms.PasswordInput()
         }
+
+                    # 'password': forms.PasswordInput(attrs={'placeholder': _('Parol')})
+
 
 class TeacherForm(forms.ModelForm):
     class Meta:

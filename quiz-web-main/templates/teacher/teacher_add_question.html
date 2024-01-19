@@ -14,15 +14,15 @@
     
   </style>
 </head>
-<h2 style="text-align:center; color:blue;">Savol qo'shish</h2>
+<h2 style="text-align:center; color:blue;">{%trans "Savol qo'shish" %}</h2>
 <form method="POST" autocomplete="off" style="margin:100px;margin-top: 0px;">
     {%csrf_token%}
     <div class="form-group">
-        <label for="question">Soha</label>
+        <label for="question">{%trans "Soha" %}</label>
       {% render_field questionForm.courseID|attr:'required:true' class="form-control" %}
         <br>
 
-      <label for="question">Savol</label>
+      <label for="question">{%trans "Savol" %}</label>
       {% render_field questionForm.question|attr:'required:true' class="form-control" placeholder="Texnika xavfsizligi boyicha savol ?" %}
         <br>
       <label for="option1">Varinat 1</label>
@@ -42,7 +42,7 @@
     </div>
     
 
-    <button type="submit" class="btn btn-primary">Qo'shish</button>
+    <button type="submit" class="btn btn-primary">{%trans "Qo'shish" %}</button>
   </form>
 <br><br><br>
 {% endblock content %}

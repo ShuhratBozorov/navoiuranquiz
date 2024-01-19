@@ -1,3 +1,4 @@
+{% load i18n %}
 <!DOCTYPE html>
 {% load static %}
 <html lang="en" dir="ltr">
@@ -31,11 +32,11 @@
 
   <div class="jumbotron" style="margin-bottom: 0px;margin-top: 0px;">
     
-    <p class="lead">Biz xodimlarga savollar berish uchun platformani taqdim etamiz <br> Texnik Xavfsizlik xodimi tizimga Xavfsizlik texnikasi bo'yicha savollar qo'shishi mumkin.</p>
+    <p class="lead">{%trans "Biz xodimlarga savollar berish uchun platformani taqdim etamiz" %}<br>{%trans "Texnik Xavfsizlik xodimi tizimga Xavfsizlik texnikasi bo'yicha savollar qo'shishi mumkin." %}</p>
     <hr class="my-4">
-    <p>Veb-saytimizni o'rganing. !!!</p>
+    <p>{%trans "Veb-saytimizni o'rganing. !!!" %}</p>
     <p class="lead">
-      <a class="btn btn-primary btn-lg" href="/" role="button">Bosh Sahifa</a>
+      <a class="btn btn-primary btn-lg" href="/" role="button">{%trans "Bosh Sahifa" %}</a>
     </p>
   </div>
 

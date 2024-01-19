@@ -6,14 +6,15 @@ from quiz import models as QMODEL
 class StudentUserForm(forms.ModelForm):
     class Meta:
         model=User
-        fields=['first_name','last_name','username','password','address']
+        fields=['first_name','last_name','username','password']
         widgets = {
-            'username': forms.TextInput(attrs={'placeholder': '12345'}),
-            'first_name': forms.TextInput(attrs={'placeholder': 'Ходим исми'}),
-            'last_name': forms.TextInput(attrs={'placeholder': 'Ходим фамилияси'}),
-            'email': forms.EmailInput(attrs={'placeholder': 'Email'}),
-            'password': forms.PasswordInput(attrs={'placeholder': 'Parol'}),
-            'address':forms.TextInput(attrs={'placeholder':''})
+            'password': forms.PasswordInput()
+
+            #   'username': forms.TextInput(attrs={'placeholder': '12345'}),
+            # 'first_name': forms.TextInput(attrs={'placeholder': 'Ходим исми'}),
+            # 'last_name': forms.TextInput(attrs={'placeholder': 'Ходим фамилияси'}),
+            # 'email': forms.EmailInput(attrs={'placeholder': 'Email'}),
+            # 'password': forms.PasswordInput(attrs={'placeholder': 'Parol'})
         }
 
 class StudentForm(forms.ModelForm):

@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2024-01-18 10:22+0500\n"
+"POT-Creation-Date: 2024-01-19 14:10+0500\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -18,6 +18,10 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=1; plural=0;\n"
 
+#: .\onlinequiz\settings.py:115
+msgid "Uzbek"
+msgstr ""
+
 #: .\onlinequiz\settings.py:116
 msgid "Ўзбек"
 msgstr ""
@@ -26,8 +30,26 @@ msgstr ""
 msgid "Русский"
 msgstr ""
 
-#: .\onlinequiz\settings.py:118
-msgid "Uzbek"
+#: .\templates\quiz\aboutus.html:35
+msgid "Biz xodimlarga savollar berish uchun platformani taqdim etamiz"
+msgstr ""
+
+#: .\templates\quiz\aboutus.html:35
+msgid ""
+"Texnik Xavfsizlik xodimi tizimga Xavfsizlik texnikasi bo'yicha savollar "
+"qo'shishi mumkin."
+msgstr ""
+
+#: .\templates\quiz\aboutus.html:37
+msgid "Veb-saytimizni o'rganing. !!!"
+msgstr ""
+
+#: .\templates\quiz\aboutus.html:39
+msgid "Bosh Sahifa"
+msgstr ""
+
+#: .\templates\quiz\footer.html:56
+msgid "Navoiyuran"
 msgstr ""
 
 #: .\templates\quiz\index.html:16
@@ -42,18 +64,7 @@ msgstr ""
 msgid "Boshlash!"
 msgstr ""
 
-#: .\templates\quiz\index.html:27
-msgid "Tilni tanlang:"
-msgstr ""
-
-#: .\templates\quiz\index.html:39
-msgid "Tanlash"
-msgstr ""
-
-#: .\templates\student\studentsignup.html:61
-msgid "Bo'linmani tanlang"
-msgstr ""
-
+#: .\templates\quiz\navbar.html:53
 msgid "Mehnat muhofazasi texnika xavfsizligi xodimlari"
 msgstr ""
 
@@ -61,54 +72,128 @@ msgstr ""
 msgid "Ishchi xodimlar"
 msgstr ""
 
-#: .\templates\quiz\navbar.html:58
+#: .\templates\quiz\navbar.html:59
+msgid "Tilni tanlang:"
+msgstr ""
+
+#: .\templates\quiz\navbar.html:71
+msgid "Tanlash"
+msgstr ""
+
+#: .\templates\quiz\navbar.html:74
 msgid "Aloqa uchun"
 msgstr ""
 
-#: .\templates\quiz\navbar.html:59
+#: .\templates\quiz\navbar.html:75
 msgid "Admin"
 msgstr ""
 
-#: .\templates\quiz\footer.html:55
-msgid "Navoiyuran"
+#: .\templates\student\studentclick.html:34
+msgid "Xodimlar "
 msgstr ""
 
-msgid "Texnika xavfsizlik xodimlari"
+#: .\templates\student\studentclick.html:35
+msgid "Online test web saytiga xush kelibsiz! "
 msgstr ""
 
-msgid "Online test web saytiga xush kelibsiz!"
+#: .\templates\student\studentclick.html:37
+msgid "Saytdan ro'yxatdan o'tganingizdan so'ng saytga kirish huquqiga egasiz! "
 msgstr ""
 
-msgid "Saytdan ro'yxatdan o'tganingizdan so'ng saytga kirish huquqiga egasiz!"
+#: .\templates\student\studentclick.html:39
+msgid "Akkaunt yaratish "
 msgstr ""
 
-msgid "Akkaunt yaratish"
+#: .\templates\student\studentclick.html:40
+msgid "Kirish "
 msgstr ""
 
-msgid "Kirish"
+#: .\templates\student\studentlogin.html:88
+msgid "Xodimlar kirish"
+msgstr "Xodimlar kirish"
+
+#: .\templates\student\studentlogin.html:89
+msgid "Iltimos, login va parolingizni kiriting!"
 msgstr ""
 
-msgid "TX xodimlar ro'yxatdan o'tish"
+#: .\templates\student\studentsignup.html:22
+msgid "Xodimlar ro'yxatdan o'tish"
 msgstr ""
 
+#: .\templates\student\studentsignup.html:27
 #: .\templates\teacher\teachersignup.html:27
 msgid "Tabel nomer"
 msgstr ""
 
+#: .\templates\student\studentsignup.html:31
+#: .\templates\teacher\teachersignup.html:31
 msgid "Password"
 msgstr ""
 
+#: .\templates\student\studentsignup.html:38
+#: .\templates\teacher\teachersignup.html:38
 msgid "Xodim ismi"
 msgstr ""
 
+#: .\templates\student\studentsignup.html:42
+#: .\templates\teacher\teachersignup.html:42
 msgid "Xodim familiyasi"
 msgstr ""
 
-msgid "Telefon raqami"
+#: .\templates\student\studentsignup.html:49
+msgid "Telefon nomeri"
 msgstr ""
 
+#: .\templates\student\studentsignup.html:53
+#: .\templates\teacher\teachersignup.html:53
 msgid "Ish joyi"
 msgstr ""
 
+#: .\templates\student\studentsignup.html:57
+msgid "Xodim Sohasi"
+msgstr ""
+
+#: .\templates\student\studentsignup.html:61
+msgid "Bo'linmani tanlang"
+msgstr ""
+
+#: .\templates\student\studentsignup.html:68
+#: .\templates\teacher\teachersignup.html:67
 msgid "Ro'yxatdan o'tish"
+msgstr "Ro'yxatdan o'tish"
+
+#: .\templates\teacher\teacherclick.html:34
+msgid "Texnika xavfsizlik xodimlari"
+msgstr ""
+
+#: .\templates\teacher\teacherclick.html:35
+msgid "Online test web saytiga xush kelibsiz!"
+msgstr ""
+
+#: .\templates\teacher\teacherclick.html:37
+msgid "Saytdan ro'yxatdan o'tganingizdan so'ng saytga kirish huquqiga egasiz!"
+msgstr ""
+
+#: .\templates\teacher\teacherclick.html:39
+msgid "Akkaunt yaratish"
+msgstr ""
+
+#: .\templates\teacher\teacherclick.html:40
+msgid "Kirish"
+msgstr ""
+
+#: .\templates\teacher\teacherlogin.html:87
+msgid "TX xodimlar kirish "
+msgstr "TX xodimlar kirish "
+
+#: .\templates\teacher\teacherlogin.html:88
+msgid "Iltimos, login va parolingizni kiriting! "
+msgstr "Iltimos, login va parolingizni kiriting! "
+
+#: .\templates\teacher\teachersignup.html:22
+msgid "TX xodimlar ro'yxatdan o'tish"
+msgstr ""
+
+#: .\templates\teacher\teachersignup.html:49
+msgid "Telefon raqami"
 msgstr ""

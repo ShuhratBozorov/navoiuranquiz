@@ -14,22 +14,22 @@
     
   </style>
 </head>
-<h2 style="text-align:center; color:blue;">Soha qo'shish</h2>
+<h2 style="text-align:center; color:blue;">{%trans "Soha qo'shish" %}</h2>
 <form method="POST" autocomplete="off" style="margin:100px;margin-top: 0px;">
     {%csrf_token%}
     <div class="form-group">
-      <label for="course_name">Soha nomi</label>
+      <label for="course_name">{%trans "Soha nomi" %}</label>
       {% render_field courseForm.course_name class="form-control" placeholder="Java" %}
 
-      <label for="question_number">Jami savol</label>
+      <label for="question_number">{%trans "Jami savol" %}</label>
       {% render_field courseForm.question_number class="form-control" placeholder="10" %}
 
-      <label for="time">Vaqti (minutlarda)</label>
+      <label for="time">{%trans "Vaqti (minutlarda)" %}</label>
       {% render_field courseForm.time class="form-control" placeholder="30" %}
     </div>
     
 
-    <button type="submit" class="btn btn-primary">Qo'shish</button>
+    <button type="submit" class="btn btn-primary">{%trans "Qo'shish" %}</button>
   </form>
 <br><br><br>
 {% endblock content %}

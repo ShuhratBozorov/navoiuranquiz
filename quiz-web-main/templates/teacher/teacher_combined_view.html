@@ -29,10 +29,10 @@
     <table id="results-table" border="1" class="table table-bordered table-striped">
       <thead class="thead-dark">
         <tr>
-          <th>Xodim Tabel Nomeri</th>
-          <th>Soha</th>
-          <th>Bahosi % larda</th>
-          <th>Vaqt</th>
+          <th>{%trans "Xodim Tabel Nomeri" %}</th>
+          <th>{%trans "Soha" %}</th>
+          <th>{%trans "Bahosi % larda" %}</th>
+          <th>{%trans "Vaqt" %}</th>
         </tr>
       </thead>
       <tbody>
@@ -48,7 +48,7 @@
         {% endfor %}
       </tbody>
     </table>
-    <button class="btn btn-success btn-lg" onclick="exportToExcel()">Excel formatda yuklab olish</button>
+    <button class="btn btn-success btn-lg" onclick="exportToExcel()">{%trans "Excel formatda yuklab olish" %}</button>
 <br><br><br><br><br><br>
 <script>
     function exportToExcel() {

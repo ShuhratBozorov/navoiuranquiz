@@ -14,7 +14,7 @@
 }
 
 .box {
-    width: 500px;
+    width: 550px;
     padding: 40px;
     position: absolute;
     top: 50%;
@@ -84,13 +84,13 @@
             <div class="card">
                 <form class="box" method="post">
                     {% csrf_token %}
-                    <h1>TB xodimlar kirish</h1>
-                    <p class="text-muted"> Iltimos, login va parolingizni kiriting!</p>
+                    <h1>{%trans "TX xodimlar kirish " %}</h1>
+                    <p class="text-muted"> {%trans "Iltimos, login va parolingizni kiriting! " %}</p>
 
-                     {% render_field form.username class="form-control" placeholder="Tabel nomer" %}
-                     {% render_field form.password class="form-control" placeholder="Parol" %}
+                     {% render_field form.username class="form-control" placeholder="Табел номер" %}
+                     {% render_field form.password class="form-control" placeholder="Парол" %}
 
-                     <input type="submit" name="" value="Kirish">
+                     <input type="submit" name="" value="Submit">
 
                 </form>
             </div>

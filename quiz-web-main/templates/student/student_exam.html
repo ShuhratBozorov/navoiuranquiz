@@ -26,15 +26,15 @@
 <div class="container">
   <div class="panel panel-primary">
     <div class="panel-heading">
-      <h6 class="panel-title">Sohalar</h6>
+      <h6 class="panel-title">{%trans "Sohalar" %}</h6>
     </div>
     <table class="table table-hover" id="dev-table">
       <thead>
         <tr>
 
-          <th>Imtihon nomi</th>
+          <th>{%trans "Imtihon nomi" %}</th>
           
-          <th>Imtihon topshirish</th>
+          <th>{%trans Imtihon topshirish %}</th>
         </tr>
       </thead>
       {% for t in courses %}
@@ -42,7 +42,7 @@
 
         <td> {{t.course_name}}</td>
         
-        <td><a class="btn btn-danger btn-xs" href="{% url 'take-exam' t.id  %}"><span class="glyphicon glyphicon-circle-arrow-right"></span> Boshlash</a></td>
+        <td><a class="btn btn-danger btn-xs" href="{% url 'take-exam' t.id  %}"><span class="glyphicon glyphicon-circle-arrow-right"></span>{%trans "Boshlash" %}</a></td>
       </tr>
       {% endfor %}
     </table>

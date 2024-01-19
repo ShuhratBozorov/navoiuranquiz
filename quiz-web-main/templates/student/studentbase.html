@@ -165,10 +165,10 @@
       <i style="left: 200px;margin-top: 17px;"class="fas fa-bars" id="sidebar_btn"></i>
     </label>
     <div class="left_area">
-      <h3>Online Test</h3>
+      <h3>{%trans "Online Test" %}</h3>
     </div>
     <div class="right_area">
-      <a href="/logout" class="logout_btn">Chiqish</a>
+      <a href="/logout" class="logout_btn">{%trans "Chiqish" %}</a>
     </div>
   </header>
   <!--header area end-->
@@ -178,13 +178,13 @@
 
       <img src="{% static "image/student.png" %}" class="profile_image" alt="">
       <h4>{{request.user.first_name}}</h4>
-      <h6 style="color: rgb(255, 255, 255);">( Xodim )</h6>
+      <h6 style="color: rgb(255, 255, 255);">{%trans "( Xodim )" %}</h6>
 
     </center>
 
-    <a href="/student/student-dashboard"><i class="fas fa-tachometer-alt"></i><span>Dashboard</span></a>
-    <a href="/student/student-exam"><i class="fas fa-book"></i><span>Imtihon</span></a>
-    <a href="/student/student-marks"><i class="fas fa-sort-numeric-up"></i><span>Natijalar</span></a>
+    <a href="/student/student-dashboard"><i class="fas fa-tachometer-alt"></i><span>{%trans "Dashboard" %}</span></a>
+    <a href="/student/student-exam"><i class="fas fa-book"></i><span>{%trans "Imtihon" %}</span></a>
+    <a href="/student/student-marks"><i class="fas fa-sort-numeric-up"></i><span>{%trans "Natijalar" %}</span></a>
   </div>
   <!--sidebar end-->
 

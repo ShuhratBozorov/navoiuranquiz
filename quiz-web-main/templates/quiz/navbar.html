@@ -53,6 +53,7 @@
                 <a href="/teacher/teacherclick" class="nav-item nav-link">{% trans "Mehnat muhofazasi texnika xavfsizligi xodimlari" %}</a>
                 <a href="/student/studentclick" class="nav-item nav-link">{% trans "Ishchi xodimlar" %}</a>
             </div>
+           <div style="display: flex; align-items: center;">
             <form method="post" action="{% url 'set_language' %}" style="margin: 0;">
                 {% csrf_token %}
     
@@ -74,6 +75,7 @@
                 <a href="/contactus" class="nav-item nav-link">{% trans "Aloqa uchun" %}</a>
                 <a href="/adminclick" class="nav-item nav-link">{% trans "Admin" %}</a>
             </div>
+           </div>
         </div>
 
 
