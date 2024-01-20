@@ -112,8 +112,8 @@ LANGUAGE_CODE = 'uz'
 TIME_ZONE = 'Asia/Tashkent'
 
 LANGUAGES = [
-    ('uz', _('Uzbek')),
-    ('uzb', _('Ўзбек')),
+    ('uz', _("O'zbekcha")),
+    ('uzb', _('Ўзбекча')),
     ('ru', _('Русский')),
 ]
 

@@ -10,11 +10,11 @@ class Student(models.Model):
         'quiz.Course', on_delete=models.CASCADE, null=True, blank=True, related_name='students'
     )
     SUBJECT_CHOICES = [
-        ('region1', 'Navoiyuran'),
-        ('region2', 'Nurobod'),
-        ('region3', 'Zafarobod'),
-        ('region4', 'Uchquduq'),
-        ('region5', 'Uran va noyob ishlab chiqarish markazi')
+        ('region1', 'Навоийуран'),
+        ('region2', 'Нуробод'),
+        ('region3', 'Зафаробод'),
+        ('region4', 'Учқудуқ'),
+        ('region5', 'Уран ва ноёб ишлаб чиқариш маркази')
     ]
     
     regions = models.CharField(
