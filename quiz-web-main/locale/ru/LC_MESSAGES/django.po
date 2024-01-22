@@ -53,9 +53,8 @@ msgid "Bosh Sahifa"
 msgstr "Начать!"
 
 #: .\templates\quiz\contactus.html:21
-msgid ""
-"Test bo'yicha savollaringiz bor bo'lsa quyidagi raqamlar bilan bog'laning!"
-msgstr ""
+msgid "Test bo'yicha savollaringiz bor bo'lsa quyidagi raqamlar bilan bog'laning!"
+msgstr "Свяжитесь со следующими номерами, если у вас есть вопросы по тесту!"
 
 #: .\templates\quiz\footer.html:56
 msgid "Navoiyuran"

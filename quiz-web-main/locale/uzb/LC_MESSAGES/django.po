@@ -52,7 +52,7 @@ msgstr "Бошлаш!"
 #: .\templates\quiz\contactus.html:21
 msgid ""
 "Test bo'yicha savollaringiz bor bo'lsa quyidagi raqamlar bilan bog'laning!"
-msgstr ""
+msgstr "Тест бўйича саволларингиз бор бўлса қуйидаги рақамлар билан боғланинг!"
 
 #: .\templates\quiz\footer.html:56
 msgid "Navoiyuran"
