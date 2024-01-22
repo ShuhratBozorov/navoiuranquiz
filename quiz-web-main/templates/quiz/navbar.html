@@ -54,7 +54,7 @@
                 <a href="/student/studentclick" class="nav-item nav-link">{% trans "Ishchi xodimlar" %}</a>
             </div>
            <div style="display: flex; align-items: center;">
-            <form method="post" action="{% url 'set_language' %}" style="margin: 0;">
+            <form method="post" action="{% url 'set_language' %}" style="margin: 0;" id="language-form">
                 {% csrf_token %}
     
                 <label for="language">{% trans "Tilni tanlang:" %}</label>
@@ -69,7 +69,7 @@
                     {% endfor %}
                 </select>
     
-                <input type="submit" value="{% trans 'Tanlash' %}">
+                <!-- <input type="submit" value="{% trans 'Tanlash' %}"> -->
             </form>
             <div>
                 <a href="/contactus" class="nav-item nav-link">{% trans "Aloqa uchun" %}</a>
@@ -83,6 +83,14 @@
     </nav>
 </div>
 
+<script>
+    const langForm = document.getElementById('language-form')
+    const langSelect = document.getElementById('language')
+    langSelect.addEventListener('change', () => {
+        console.log('asdf');
+        langForm.submit()
+    })
+</script>
 
 </body>
 
