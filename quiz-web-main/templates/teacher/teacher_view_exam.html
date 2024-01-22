@@ -1,5 +1,5 @@
-{% load i18n %}
 {% extends 'teacher/teacherbase.html' %}
+{% load i18n %}
 {% block content %}
 {%load static%}
 
@@ -26,7 +26,7 @@
 <div class="container">
   <div class="panel panel-primary">
     <div class="panel-heading">
-      <h6 class="panel-title">Exams</h6>
+      <h6 class="panel-title">{%trans "Exams" %}</h6>
     </div>
     <table class="table table-hover" id="dev-table">
       <thead>
@@ -34,7 +34,7 @@
 
           <th>{%trans "Soha nomi" %}</th>
           <th>{%trans "Jami savol" %}</th>
-          <th>{%trans "O'chirish" %}</th>
+          <th>{%trans "O'chirish " %}</th>
         </tr>
       </thead>
       {% for t in courses %}

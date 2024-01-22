@@ -1,5 +1,5 @@
-{% load i18n %}
 {% extends 'student/studentbase.html' %}
+{% load i18n %}
 {% block content %}
 {%load static%}
 
@@ -44,7 +44,7 @@
 
         <td> {{t.exam}}</td>
         <td> {{t.marks}} %</td>
-        <td>Urunish {{ forloop.counter }}</td>
+        <td>{%trans " Urinish " %} {{ forloop.counter }}</td>
         <td> {{t.date}}</td>
         
         

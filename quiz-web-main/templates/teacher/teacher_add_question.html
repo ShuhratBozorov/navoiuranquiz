@@ -1,5 +1,5 @@
-{% load i18n %}
 {% extends 'teacher/teacherbase.html' %}
+{% load i18n %}
 {% load widget_tweaks %}
 {% block content %}
 <head>
@@ -23,21 +23,21 @@
         <br>
 
       <label for="question">{%trans "Savol" %}</label>
-      {% render_field questionForm.question|attr:'required:true' class="form-control" placeholder="Texnika xavfsizligi boyicha savol ?" %}
+      {% render_field questionForm.question|attr:'required:true' class="form-control" placeholder="" %}
         <br>
-      <label for="option1">Varinat 1</label>
-      {% render_field questionForm.option1|attr:'required:true' class="form-control" placeholder="variant1" %}
+      <label for="option1">{%trans "Variant 1" %}</label>
+      {% render_field questionForm.option1|attr:'required:true' class="form-control" placeholder="" %}
         <br>
-      <label for="option2">Varinat 2</label>
-      {% render_field questionForm.option2|attr:'required:true' class="form-control" placeholder="varinat2" %}
+      <label for="option2">{%trans "Variant 2" %}</label>
+      {% render_field questionForm.option2|attr:'required:true' class="form-control" placeholder="" %}
         <br>
-      <label for="option3">Variant 3</label>
-      {% render_field questionForm.option3|attr:'required:true' class="form-control" placeholder="variant3" %}
+      <label for="option3">{%trans "Variant 3" %}</label>
+      {% render_field questionForm.option3|attr:'required:true' class="form-control" placeholder="" %}
         <br>
-      <label for="option4">Variant 4</label>
-      {% render_field questionForm.option4|attr:'required:true' class="form-control" placeholder="variant4" %}
+      <label for="option4">{%trans "Variant 4" %}</label>
+      {% render_field questionForm.option4|attr:'required:true' class="form-control" placeholder="" %}
         <br>
-      <label for="answer">Javob</label>
+      <label for="answer">{%trans "Javob" %}</label>
       {% render_field questionForm.answer|attr:'required:true' class="form-control" %}
     </div>
     

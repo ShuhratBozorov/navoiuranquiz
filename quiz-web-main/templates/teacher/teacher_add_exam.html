@@ -1,5 +1,5 @@
-{% load i18n %}
 {% extends 'teacher/teacherbase.html' %}
+{% load i18n %}
 {% load widget_tweaks %}
 {% block content %}
 <head>
@@ -19,7 +19,7 @@
     {%csrf_token%}
     <div class="form-group">
       <label for="course_name">{%trans "Soha nomi" %}</label>
-      {% render_field courseForm.course_name class="form-control" placeholder="Java" %}
+      {% render_field courseForm.course_name class="form-control" placeholder="" %}
 
       <label for="question_number">{%trans "Jami savol" %}</label>
       {% render_field courseForm.question_number class="form-control" placeholder="10" %}

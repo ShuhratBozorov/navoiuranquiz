@@ -1,5 +1,5 @@
-{% load i18n %}
 {% extends 'student/studentbase.html' %}
+{% load i18n %}
 {% block content %}
 {%load static%}
 
@@ -34,7 +34,7 @@
 
           <th>{%trans "Imtihon nomi" %}</th>
           
-          <th>{%trans Imtihon topshirish %}</th>
+          <th>{%trans "Imtihon topshirish" %}</th>
         </tr>
       </thead>
       {% for t in courses %}
@@ -42,7 +42,7 @@
 
         <td> {{t.course_name}}</td>
         
-        <td><a class="btn btn-danger btn-xs" href="{% url 'take-exam' t.id  %}"><span class="glyphicon glyphicon-circle-arrow-right"></span>{%trans "Boshlash" %}</a></td>
+        <td><a class="btn btn-danger btn-xs" href="{% url 'take-exam' t.id  %}"><span class="glyphicon glyphicon-circle-arrow-right"></span>{%trans "Boshlash " %}</a></td>
       </tr>
       {% endfor %}
     </table>

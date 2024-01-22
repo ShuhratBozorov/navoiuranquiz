@@ -1,5 +1,5 @@
-{% load i18n %}
 {% extends 'student/studentbase.html' %}
+{% load i18n %}
 {% block content %}
 {%load static%}
 
@@ -14,20 +14,20 @@
 <div class="container my-4">
     <div class="jumbotron">
 
-	      <h3 class="text-info text-center">{%trans "Testni boshlashdan oldin bu yerdagi qoidalar bilan tanishing !" %}</h3>
+	      <h3 class=" text-center">{%trans "Testni boshlashdan oldin bu yerdagi qoidalar bilan tanishing !" %}</h3>
 
         <div class="row">
 
             <div class="card border-info mx-4 my-4">
-                <div class="card-body text-info">
+                <div class="card-body">
 
                     <h4 class="card-title">{%trans "Test tafsilotlari :" %}</h4>
                     <p class="card-text">
                         </p><ul style="list-style:decimal;">
-                            <li>Soha nomi : {{course.course_name}}</li>
-                            <li>Jami savol : {{total_questions}}</li>
-                            <li>Vaqt : {{taym}} minut</li> 
-                            <li>Jami urinishlaringiz: {{quiz_attempt}}</li>
+                            <li>{%trans "Soha nomi :" %} {{course.course_name}}</li>
+                            <li>{%trans "Jami savol :" %} {{total_questions}}</li>
+                            <li>{%trans "Vaqt (minut):" %} {{taym}} </li> 
+                            <li>{%trans "Jami urinishlaringiz:" %} {{quiz_attempt}}</li>
                         </ul>
                     <p></p>
 
