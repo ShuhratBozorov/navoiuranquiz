@@ -119,7 +119,7 @@ msgstr "Балларни кўриш"
 #: .\templates\teacher\teacher_view_exam.html:35
 #: .\templates\teacher\teacher_view_question.html:35
 msgid "Soha nomi"
-msgstr ""
+msgstr "Соҳа номи"
 
 #: .\templates\student\check_marks.html:37
 #: .\templates\teacher\teacher_view_question.html:37
@@ -137,7 +137,7 @@ msgstr "Тест вақти"
 #: .\templates\student\check_marks.html:56
 #: .\templates\teacher\teacher_combined_view.html:51
 msgid "Excel formatda yuklab olish"
-msgstr "Excel форматда юклаб олиш"
+msgstr "Ехсел форматда юклаб олиш"
 
 #: .\templates\student\student_dashboard.html:82
 msgid "Jami imtihonlar"
@@ -156,7 +156,7 @@ msgstr "Соҳалар"
 #: .\templates\student\student_exam.html:35
 #: .\templates\student\student_marks.html:35
 msgid "Imtihon nomi"
-msgstr ""
+msgstr "Имтиҳон номи"
 
 #: .\templates\student\student_exam.html:37
 msgid "Imtihon topshirish"
@@ -330,7 +330,7 @@ msgstr "саволлар"
 #: .\templates\teacher\see_question.html:35
 #: .\templates\teacher\teacher_add_question.html:25
 msgid "Savol"
-msgstr ""
+msgstr "Савол"
 
 #: .\templates\teacher\see_question.html:37
 msgid "Savolni o'chirish"
@@ -354,26 +354,26 @@ msgstr "Соҳа қўшиш"
 #: .\templates\teacher\teacher_view_exam.html:36
 #: .\templates\teacher\teacher_view_question.html:36
 msgid "Jami savol"
-msgstr ""
+msgstr "Жами савол"
 
 #: .\templates\teacher\teacher_add_exam.html:27
 msgid "Vaqti (minutlarda)"
-msgstr ""
+msgstr "Вақти (минутларда)"
 
 #: .\templates\teacher\teacher_add_exam.html:32
 #: .\templates\teacher\teacher_add_question.html:45
 msgid "Qo'shish"
-msgstr ""
+msgstr "Қўшиш"
 
 #: .\templates\teacher\teacher_add_question.html:17
 #: .\templates\teacher\teacher_question.html:80
 msgid "Savol qo'shish"
-msgstr ""
+msgstr "Савол қўшиш"
 
 #: .\templates\teacher\teacher_add_question.html:21
 #: .\templates\teacher\teacher_combined_view.html:33
 msgid "Soha"
-msgstr ""
+msgstr "Соҳа"
 
 #: .\templates\teacher\teacher_add_question.html:28
 msgid "Variant 1"
@@ -405,7 +405,7 @@ msgstr "Баҳоси фоизларда"
 
 #: .\templates\teacher\teacher_combined_view.html:35
 msgid "Vaqt"
-msgstr ""
+msgstr "Вакт"
 
 #: .\templates\teacher\teacher_dashboard.html:81
 msgid "Jami xodimlar "
