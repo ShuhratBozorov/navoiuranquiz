@@ -512,17 +512,17 @@ msgstr "Номер телефона"
 #~ msgid "Kirish "
 #~ msgstr "Вход"
 
-#~ msgid "Soha nomi :"
-#~ msgstr "Название отрасли :"
+msgid " Soha nomi :"
+msgstr "Название отрасли :"
 
-#~ msgid "Jami savol :"
-#~ msgstr "Общий вопрос:"
+msgid "Jami savol :"
+msgstr "Общий вопрос:"
 
-#~ msgid "Vaqt (minut):"
-#~ msgstr "Время (минуты):"
+msgid "Vaqt (minut):"
+msgstr "Время (минуты):"
 
-#~ msgid "Jami urinishlaringiz:"
-#~ msgstr "Ваши общие попытки:"
+msgid "Jami urinishlaringiz:"
+msgstr "Ваши общие попытки:"
 
 #: .\templates\student\check_marks.html:47
 msgid " Urinish "

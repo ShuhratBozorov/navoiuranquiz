@@ -510,17 +510,17 @@ msgstr "Telefon рақами"
 #~ msgid "Kirish "
 #~ msgstr "Кириш"
 
-#~ msgid "Soha nomi :"
-#~ msgstr "Соҳа номи :"
+msgid " Soha nomi :"
+msgstr "Соҳа номи :"
 
-#~ msgid "Jami savol :"
-#~ msgstr "Жами савол :"
+msgid "Jami savol :"
+msgstr "Жами савол :"
 
-#~ msgid "Vaqt (minut):"
-#~ msgstr "Вақт (минут):"
+msgid "Vaqt (minut):"
+msgstr "Вақт (минут):"
 
-#~ msgid "Jami urinishlaringiz:"
-#~ msgstr "Жами уринишларингиз:"
+msgid "Jami urinishlaringiz:"
+msgstr "Жами уринишларингиз:"
 
 #: .\templates\student\check_marks.html:47
 msgid " Urinish "
